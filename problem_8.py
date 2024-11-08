@@ -1,5 +1,6 @@
 # code for deleting the duplicate eliments from a string
 str = input("enter Your string: ")
+str.lower()
 unique_element=set()
 res=""
 for c in str:
